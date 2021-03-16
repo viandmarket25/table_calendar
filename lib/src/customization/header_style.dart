@@ -78,7 +78,7 @@ class HeaderStyle {
 
   const HeaderStyle({
     this.centerHeaderTitle = false,
-    this.formatButtonVisible = true,
+    this.formatButtonVisible = false,
     this.formatButtonShowsNext = true,
     this.titleTextBuilder,
     this.titleTextStyle = const TextStyle(fontSize: 17.0),
