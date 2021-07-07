@@ -25,7 +25,7 @@ class _CustomIconButton extends StatelessWidget {
       padding: margin,
       child: InkWell(
         onTap: onTap,
-        borderRadius: BorderRadius.circular(100.0),
+        borderRadius: BorderRadius.circular(10.0),
         child: Padding(
           padding: padding,
           child: icon,
